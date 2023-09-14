@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Intro</title>
+
+    <!-- CSS im <head> einbinden -->
+  </head>
+  <body>
+    <h1>Konsole öffnen 😘</h1>
+    <p>Rechtsklick -> Inspekt / Inspizieren</p>
+    <!-- 
+      JavaScript kann inline im HTML direkt eingebunden werden.
+      Schlecht, kann sehr schnell unübersichtlich werden! 
+    -->
+    <script>
+      console.log("Hello World, but inline");
+    </script>
+
+    <!-- 
+      JavaScript vor dem schließenden body-Tag einbinden! (Ladezeiten) 
+      Hier über ein separates Files eingebunden: external (besser)
+      Reihenfolge beachten! Vor allem wenn Skripte aufeinander aufbauen.
+    -->
+    <script src="main.js"></script>
+  </body>
+</html>
