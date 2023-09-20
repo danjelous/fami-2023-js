@@ -73,3 +73,19 @@ console.log('hohohoho'.replaceAll('ho', 'ha'));
 // Kann mit replace auch Teile entfernen
 let message = 'Willkommen zurück!';
 console.log(message.replace(' zurück', ''));
+
+// Escape characters (Backslash mit option + shift + 7 auf Mac)
+const conversation = 'He said: "I don\'t have time."';
+console.log(conversation);
+
+// \n für Zeilenumbruch. Kann ich beliebig viele machen.
+const multiLine = '1. Zeile\n 2. Zeile\n  3. Zeile';
+console.log(multiLine);
+
+// String Template Literals (optional)
+const myName = 'Slim Shady';
+
+// `: Shift + Backtick
+// {: alt/option + 8
+console.log(`Hi, my name is ${myName}!`);
+console.log(`Hi, my name is ${myName}, WHAT? My Name is ${23 + 135} - ${myName.toUpperCase()}!`);
